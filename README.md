@@ -1,4 +1,4 @@
-# CS312-Project2
+# AWS Minecraft Server on EC2
 ## Background
 ### Purpose
 The purpose of this project is to automate the creation of a Minecraft Java Edition Server (provisioning, configuration, and setup) on an AWS EC2 Instance **without** ever accessing the AWS Management Console. Though, except for accessing the AWS Learner Lab to start the Lab and to retrieve the AWS Academy CLI Credentials.
