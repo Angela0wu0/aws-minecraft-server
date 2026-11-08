@@ -1,7 +1,9 @@
 # AWS Minecraft Server on EC2
 ## Background
 ### Purpose
-The purpose of this project is to automate the creation of a Minecraft Java Edition Server (provisioning, configuration, and setup) on an AWS EC2 Instance **without** ever accessing the AWS Management Console. Though, except for accessing the AWS Learner Lab to start the Lab and to retrieve the AWS Academy CLI Credentials.
+The purpose of this project is to automate the creation of a Minecraft Java Edition Server (provisioning, configuration, and setup) on an AWS EC2 Instance **without** ever accessing the AWS Management Console. In the exception for accessing the AWS Learner Lab to start the Lab and to retrieve the AWS Academy CLI Credentials.
+
+**If you wish to manually deploy the Minecraft Server on AWS, please refer to the README.md in the the Manual Deployment folder** 
 
 ### How It Works
 The deployment of the Minecraft Java Edition Server is an automated infrastructure pipeline that will: use Terraform to provision the AWS resources, and a BASH script to SSH into the created EC2 Instance and set up and install the Minecraft server. Upon successful completion, the server is verified using Nmap:
